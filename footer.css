@@ -1,0 +1,121 @@
+.footer{
+		background-color: #0c1e38;
+		color: #fff;
+		padding: 20px 0;
+		text-align: center;
+	}
+	.footer-content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		max-width: 1200px;
+		margin: 0 auto;
+		flex-wrap: wrap;
+	}
+	.footer-left {
+		text-align: left;
+	}
+	.logo1 img {
+		width: 50px;
+	}
+	.image-align-left {
+		float: left;
+		margin-right: 10px;
+		background-color:black;
+	}
+	.footer-links{
+		position: absolute;
+		top: 13%;
+		transform: translateY(-50%);
+		left: 370px;
+	}
+	.footer-links a {
+		color: #fff;
+		text-decoration: none;
+		margin: 0 15px;
+		font-size: 14px;
+	}
+	<!----------------------------------->
+	.footer-bottom {
+		margin: 20px 0;
+	}
+	.footer-bottom a {
+		margin: 0 8px;
+	}
+	.footer-bottom img {
+		width: 30px;
+		height: 30px;
+		transition: transform 0.3s;
+	}
+	.footer-bottom img:hover {
+		transform: scale(1.1);
+	}
+	<!---------------------------------->
+	.footer-right {
+		text-align: center;
+		color: #fff;
+	}
+	.rating {
+		margin-bottom: 10px;
+			}
+			.rating p {
+				font-size: 16px;
+				font-weight: bold;
+				margin: 0;
+				padding: 0;
+			}
+			.rating img {
+				width: 20px;
+				margin-top: 5px;
+			}
+			.app-links {
+				margin: 20px 0;	
+			}
+			.app-links a {
+				display: inline-block;
+				margin: 0 5px;
+			}
+			.app-links a img {
+				width: 130px;
+				margin: 5px 0;
+				transition: transform 0.3s;
+				border-radius: 15px;
+			}
+			.app-links a img:hover {
+				transform: scale(1.05);
+			}
+			.right-bottom {
+				font-size: 12px;
+				margin-top: 15px;
+			}
+			.footer-right a {
+				color: #fff;
+				text-decoration: none;
+				margin: 0 10px;
+			}
+			.footer-right a:hover {
+				text-decoration: underline;
+			}
+			
+.footer11{
+	display:flex;
+	flex-direction:row;
+	
+}
+.footer11_text{
+	display:flex;
+	flex-direction:column;
+}
+.footer11_logo{
+	padding:0px 4% 0px 4%;
+	img{
+		width:50px;
+	}
+	h1{
+		margin:0px;
+		display:inline-block;
+	}
+}
+.footer11_logo>div>img{
+	width:50px;
+}
